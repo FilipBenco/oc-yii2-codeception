@@ -10,3 +10,7 @@ modules:
             part: orm
             entryScript: index-test.php
             cleanup: false
+gherkin:
+    contexts:
+        default:
+          - AcceptanceTester
